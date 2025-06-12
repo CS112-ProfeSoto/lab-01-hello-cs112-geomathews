@@ -16,14 +16,14 @@ public class Main {
     
 }
 
-class pianoPiece {
+class PianoPiece {
     private String name;
 
-    public pianoPiece() {
+    public PianoPiece() {
         this.name = "N/A";
     }
     
-    public pianoPiece(String name) {
+    public PianoPiece(String name) {
         this.name = name;
     }
 
@@ -40,7 +40,7 @@ class pianoPiece {
     }
     
     public boolean equals(Object piece) {
-        pianoPiece other = (pianoPiece) piece;
+        PianoPiece other = (PianoPiece) piece;
         if (this.name.equals(other.name)) {
             return true;
         } else {
